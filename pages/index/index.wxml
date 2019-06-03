@@ -1,0 +1,59 @@
+<!--pages/index/index.wxml-->
+<view class="content">
+	<view class="head">
+		<view class="logo">
+			<image src="/images/icon/logo.jpg" style="width: 190px;height: 145px;border-radius: 50%;"></image>
+		</view>
+		<view class="search">
+			<image src="/images/icon/search.jpg" style="width: 20px;height: 20px;"></image>
+			<view  bindtap="sousuo">搜索京东商品</view>
+		</view>
+	</view>
+	<view class="shoppingcard">
+		<view class="haoquan">发现京东好卷</view>
+		<view class="card-item">
+			<view class="card">
+				<view class="card-word">
+					<view class="money"><text>¥</text>5</view>
+					<view>
+						<image src="/images/icon/dongquan.jpg" style="width: 35px; height: 15px;"></image>
+						<view>满一百可用</view>
+					</view>
+				</view>
+				<view class="askfor">全品类(特例商品除外)</view>
+			</view>
+			<view class="card">
+				<view class="card-word">
+					<view class="money"><text>¥</text>500</view>
+					<view>
+						<image src="/images/icon/dongquan.jpg" style="width: 35px; height: 15px;"></image>
+						<view>满999可用</view>
+					</view>
+				</view>
+				<view class="askfor">仅可购买全球购商品</view>
+			</view>
+		</view>
+		<view class="card-item">
+			<view class="card">
+				<view class="card-word">
+					<view class="money"><text>¥</text>500</view>
+					<view>
+						<image src="/images/icon/dongquan.jpg" style="width: 35px; height: 15px;"></image>
+						<view>满999可用</view>
+					</view>
+				</view>
+				<view class="askfor">仅可购买全球购商品</view>
+			</view>
+			<view class="card">
+				<view class="card-word">
+					<view class="money"><text>¥</text>100</view>
+					<view>
+						<image src="/images/icon/dongquan.jpg" style="width: 35px; height: 15px;"></image>
+						<view>满199可用</view>
+					</view>
+				</view>
+				<view class="askfor">仅可购买指定品牌挂架商品</view>
+			</view>
+		</view>
+	</view>
+</view>

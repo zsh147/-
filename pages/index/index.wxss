@@ -1,0 +1,76 @@
+/* pages/index/index.wxss */
+.content{
+	
+}
+.head{
+	background: #f22e42;
+	height: 300px;
+}
+.logo{
+	margin: 0 auto;
+	width: 190px;
+	padding-top: 40px;
+	padding-bottom: 36px;
+	border-radius: 50%;
+}
+.search{
+	background: #fff;
+	height: 40px;
+	width: 95%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	border-radius: 50px;
+}
+.search image{
+	margin-left: 100px;
+	padding-top: 9px;
+}
+.search view{
+	width:100px;
+	padding-top: 10px;
+	color: #ccc;
+}
+.haoquan{
+	height: 40px;
+	line-height: 40px;
+	color: #9e9d92;
+	padding-left: 10px;
+}
+.card-item{
+	display: flex;
+	flex-direction: row;
+	height: 85px;
+	margin-bottom: 10px;
+	
+}
+.card{
+	width: 50%;
+	border:1px solid #4cdfc4;
+	border-radius: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	overflow: hidden;
+}
+.card-word{
+	display: flex;
+	flex-direction: row;
+	color: #4cdfc4 ;
+	padding-top: 10px;	
+}
+.money{
+	margin-left: 10px;
+	line-height: 50px;
+	margin-right: 20px;
+}
+.money text{
+	font-size: 11px;
+}
+.askfor{
+	background:#4cdfc4 ;
+	color: #fff;
+	font-size: 11px;
+	line-height: 11px;
+	text-align: center;
+	padding: 6px;
+}

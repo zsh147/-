@@ -1,0 +1,71 @@
+/* pages/search/search.wxss */
+.content {}
+
+.head {
+	display: flex;
+	flex-direction: row;
+}
+
+.search_1 {
+	width: 75%;
+	display: flex;
+	flex-direction: row;
+	background: #e9e8ee;
+	border-radius: 50px;
+	height: 30px;
+	margin: 0 auto;
+}
+
+.search_1 image {
+	padding: 5px;
+}
+
+.search_1 input {
+	padding-top: 5px;
+	font-size: 13px;
+}
+
+.cancel button {
+	margin-right: 10px;
+	height: 30px;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.hr {
+	border: 1px solid #ccc;
+	opacity: 0.2;
+	margin-top: 5px;
+}
+
+.remen {
+	display: flex;
+	flex-direction: row;
+	padding: 10px;
+}
+
+.huan {
+	width: 78%;
+	color: #ea5471;
+	text-align: right;
+}
+
+.hot{
+	padding: 5px;
+}
+
+.hot view{
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 25px;
+	font-size: 13px;
+	background: #e8e8ed;
+	line-height: 25px;
+	text-align: center;
+	margin: 3px;
+	border-radius:5px;
+	float: left;
+}
+.item{
+	clear: both;/* 清除浮动 */
+}

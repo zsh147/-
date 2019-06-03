@@ -1,0 +1,97 @@
+<!--pages/shopping/shopping.wxml-->
+<view class="content">
+	<view class="hr"></view>
+	<view class="head">
+		京东购物
+	</view>
+	<view class="hr"></view>
+	<view class="items">
+		<checkbox-group bindchange="checkboxChange">
+			<view class="item">
+				<view class="icon">
+					<checkbox checked />
+				</view>
+				<view class="pic">
+					<image src='/images/order/1.jpg' style="width:80px;height:80px;"></image>
+				</view>
+				<view class="order">
+					<view>[京东超市]伊利中老年奶粉听装900g(新老包装)</view>
+					<view class="desc">
+						<view>重量：1.200kg</view>
+						<view>规格：</view>
+					</view>
+					<view class="priceInfo">
+						<view class="price">¥86.00</view>
+						<view class="minus">-</view>
+						<view class="count">5</view>
+						<view class="add">+</view>
+					</view>
+				</view>
+			</view>
+			<view class="hr"></view>
+			<view class="item">
+				<view class="icon">
+					<checkbox checked />
+				</view>
+				<view class="pic">
+					<image src='/images/order/2.jpg' style="width:80px;height:80px;"></image>
+				</view>
+				<view class="order">
+					<view>TP-Link TP-WN726N免驱版 外置天线USB无线网卡</view>
+					<view class="desc">
+						<view>重量：0.100kg</view>
+						<view>规格：外置天线</view>
+					</view>
+					<view class="priceInfo">
+						<view class="price">¥49.00</view>
+						<view class="minus">-</view>
+						<view class="count">5</view>
+						<view class="add">+</view>
+					</view>
+				</view>
+			</view>
+			<view class="hr"></view>
+			<view class="item">
+				<view class="icon">
+					<checkbox checked />
+				</view>
+				<view class="pic">
+					<image src='/images/order/3.jpg' style="width:80px;height:80px;"></image>
+				</view>
+				<view class="order">
+					<view>Apple iPhone7(A1660)128GB金色移动联通电信4G手机</view>
+					<view class="desc">
+						<view>重量：0.390kg</view>
+						<view>规格：金色128GB</view>
+					</view>
+					<view class="priceInfo">
+						<view class="price">¥5499.00</view>
+						<view class="minus">-</view>
+						<view class="count">5</view>
+						<view class="add">+</view>
+					</view>
+				</view>
+			</view>
+			<view class="hr"></view>
+		</checkbox-group>
+		<checkbox-group bindchange="checkAll">
+			<view class="totelInof">
+				<view class="all">
+					<view>
+						<checkbox checked />
+					</view>
+					<view>全选</view>
+				</view>
+				<view class="amount">
+					<view class="total">
+						总计：¥100元
+					</view>
+					<view>
+						不含运费，已优惠¥0.00
+					</view>
+				</view>
+				<view class="opr">去结算</view>
+			</view>
+		</checkbox-group>
+	</view>
+</view>
